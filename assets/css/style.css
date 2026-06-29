@@ -20,6 +20,11 @@ body{
     overflow-x:hidden;
 }
 
+html{
+
+    scroll-behavior:smooth;
+}
+
 /* =====================
    NAVBAR
 ===================== */
@@ -123,7 +128,7 @@ body{
 
 .hero-content h1{
 
-    font-size:5rem;
+    font-size:4rem;
 
     line-height:1.1;
 
@@ -528,6 +533,21 @@ body{
     font-size:2rem;
 
     margin-bottom:20px;
+}
+
+.project-image svg{
+
+    width:40px;
+
+    height:40px;
+
+    stroke:currentColor;
+
+    stroke-width:1.8;
+
+    fill:none;
+
+    vector-effect:non-scaling-stroke;
 }
 
 .project-card h3{
